@@ -1,0 +1,24 @@
+{
+  "name": "glarimy-directory",
+  "version": "1.0.0",
+  "description": "Directory Web Application using Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "nock": "^9.1.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
